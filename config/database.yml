@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+development:
+  <<: *default
+  database: api_development
+  host: localhost
+test:
+  <<: *default
+  database: api_test
+  host: localhost
