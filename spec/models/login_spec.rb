@@ -56,7 +56,7 @@ describe Login do
   end
 
   describe '#verify!' do
-    subject { create(:login, :password) }
+    subject { create(:login) }
 
     context 'when the account is already verified' do
       it 'raises an AlreadyVerifiedError' do

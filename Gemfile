@@ -30,4 +30,5 @@ group :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'timecop'
+  gem 'json_spec'
 end
