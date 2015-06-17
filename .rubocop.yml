@@ -55,3 +55,6 @@ Style/AlignParameters:
 
 Style/SignalException:
   EnforcedStyle: only_raise
+
+Style/NumericLiterals:
+  Enabled: false
