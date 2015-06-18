@@ -7,6 +7,7 @@ gem 'jsonapi-resources'
 gem 'email_validator'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'httparty', '0.13.3'
+gem 'active_zuora'
 
 group :development do
   gem 'guard-rubocop'
@@ -31,4 +32,5 @@ group :test do
   gem 'faker'
   gem 'timecop'
   gem 'json_spec'
+  gem 'vcr'
 end
