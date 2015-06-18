@@ -1,0 +1,1 @@
+class FacebookVerificationMissing < StandardError; end

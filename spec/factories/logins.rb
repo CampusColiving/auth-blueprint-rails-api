@@ -1,13 +1,11 @@
 FactoryGirl.define do
   factory :login do
-    email { Faker::Internet.email }
-
-    trait :password do
-      password { Faker::Lorem.word }
-    end
+    email    { Faker::Internet.email }
+    password { Faker::Lorem.word }
 
     trait :facebook do
-      password { Faker::Number.number }
+      facebook_uid { Faker::Number.number }
+      password nil
     end
 
     trait :verified do
